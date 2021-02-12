@@ -1,9 +1,9 @@
 HOW TO RUN MY PROJECT:
-To build the docker image, run this command once inside the 'rachelle' folder:
-sudo docker build -t chell/node-web-app . 
+To build the docker image:
+sudo docker build -t <username>/node-web-app . 
 
 To run the docker image:
-docker run -d -p 3000:3000 chell/node-web-app
+docker run -d -p 3000:3000 <username>/node-web-app
 
 Then visit: 
 127.0.0.1:3000     or      localhost:3000
