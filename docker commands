@@ -1,0 +1,3 @@
+sudo docker build -t chell/node-web-app . 
+docker container kill f38f9d84c8b6
+docker run -d -p 3000:3000 chell/node-web-app
